@@ -19,6 +19,26 @@ img {
   max-width: 100%;
 }
 
+p, li {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2rem 3rem;
+  font-style: italic;
+}
+
+.container-lg {
+  max-width: 900px;
+}
+
+.container-md {
+  max-width: 700px;
+}
+
 .pad {
   padding: 2rem;
 }
@@ -36,4 +56,17 @@ img {
 .btn-outline-primary:focus,
 .btn-outline-primary:hover {
   color: $primary_color;
+}
+
+.btn-lg,
+.btn-group-lg > .btn,
+.input-group-lg > .input-group-append > .btn,
+.input-group-lg > .input-group-prepend > .btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+.border-outline-primary {
+  border: 2px solid $primary_color;
+  border-radius: 0.25rem;
 }

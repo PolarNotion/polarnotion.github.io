@@ -3,6 +3,13 @@ title: Polar Notion's Open Source Library
 ---
 
 .container.mt-5
+  .pad.border-outline-primary.mb-5
+    %h3 Hey, We are Hiring!
+    .container-md
+      %p Come join Atlanta's, human-centered software company. Our team consists of software engineers, people who design for screens, and others who support the thoughtful execution of the former.
+      
+      = link_to 'View Opportunities', "#jobs", class: 'btn btn-primary btn-lg'
+
   .row
     .col-sm-6.col-md-4
       .pad.text-center.sticky-top
@@ -98,3 +105,17 @@ title: Polar Notion's Open Source Library
           gem 'cancancan'                 // Authorization Library
           gem 'stripe'                    // Credit Card Processor
           gem 'twilio-ruby'               // SMS delivery
+
+      %section#jobs.mb-5
+        %h2 We're Hiring
+
+        %p Come work at Polar Notion. We're quirky bunch but you'll love the ride.
+
+        .row
+          .col-sm-6
+            .mt-3
+              %h3 Software Intern
+
+              %p A 3 month experience. We help early stage professionals overcome the experience dilema via real work experience. Whether you transition up to an apprentice or end up moving onto another gig, it's a great opportunity to get tech experience.
+
+              = link_to 'Check it out', 'internship-software', class: 'btn btn-primary'
